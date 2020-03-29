@@ -34,7 +34,7 @@ The versions can be found in
 * The following methods in the `Agent` class have been renamed. The original method names will be removed in a later release:
   * `InitializeAgent()` was renamed to `Initialize()`
   * `AgentAction()` was renamed to `OnActionReceived()`
-  * `AgentReset()` was renamed to `OnEpsiodeBegin()`
+  * `AgentReset()` was renamed to `OnEpisodeBegin()`
   * `Done()` was renamed to `EndEpisode()`
   * `GiveModel()` was renamed to `SetModel()`
 * The `IFloatProperties` interface has been removed.
